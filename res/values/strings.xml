@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YaGu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_experience">Experience</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_viewplaces">Viewplaces</string>
+    <string name="title_activity_place">Place</string>
+    <string name="title_activity_viewhotel">Viewhotel</string>
+    <string name="title_activity_hotel">Hotel</string>
+    <string name="title_activity_viewrooms">Viewrooms</string>
+    <string name="title_activity_userhome">Userhome</string>
+    <string name="title_activity_custom">Custom</string>
+    <string name="title_activity_viewexperiance">Viewexperiance</string>
+    <string name="title_activity_custom2">Custom2</string>
+    <string name="title_activity_bank">Bank</string>
+    <string name="title_activity_viewbookingstatus">Viewbookingstatus</string>
+    <string name="title_activity_custom3">Custom3</string>
+    <string name="title_activity_viewplacestatus">Viewplacestatus</string>
+    <string name="title_activity_custom4">Custom4</string>
+
+</resources>

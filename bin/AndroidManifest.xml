@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yagu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/agu"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.yagu.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.yagu.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Experience"
+            android:label="@string/title_activity_experience" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Viewplaces"
+            android:label="@string/title_activity_viewplaces" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Place"
+            android:label="@string/title_activity_place" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Viewhotel"
+            android:label="@string/title_activity_viewhotel" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Hotel"
+            android:label="@string/title_activity_hotel" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Viewrooms"
+            android:label="@string/title_activity_viewrooms" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Userhome"
+            android:label="@string/title_activity_userhome" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Custom"
+            android:label="@string/title_activity_custom" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Viewexperiance"
+            android:label="@string/title_activity_viewexperiance" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Custom2"
+            android:label="@string/title_activity_custom2" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Bank"
+            android:label="@string/title_activity_bank" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Viewbookingstatus"
+            android:label="@string/title_activity_viewbookingstatus" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Custom3"
+            android:label="@string/title_activity_custom3" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Viewplacestatus"
+            android:label="@string/title_activity_viewplacestatus" >
+        </activity>
+        <activity
+            android:name="com.example.yagu.Custom4"
+            android:label="@string/title_activity_custom4" >
+        </activity>
+    </application>
+
+</manifest>
